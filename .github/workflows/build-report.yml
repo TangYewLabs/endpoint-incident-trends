@@ -3,6 +3,10 @@ name: Build Incident Trend Report
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - "src/**"
+      - "data/**"
+      - ".github/workflows/**"
   workflow_dispatch: {}
 
 jobs:
@@ -31,3 +35,8 @@ jobs:
         run: |
           python src/analyze_incidents.py data/sample_incidents.csv --out reports/incident_trends_report.xlsx
 
+      - name: Upload Excel report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: incident_trends_report
+          path: reports/incident_trends_report.xlsx
