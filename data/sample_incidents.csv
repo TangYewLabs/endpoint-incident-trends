@@ -1,0 +1,11 @@
+incident_id,opened_at,resolved_at,user_role,device_type,issue_category,priority,resolution_minutes,resolved
+INC001,2025-12-01 09:12,2025-12-01 09:55,Executive,Laptop,VPN Authentication,P2,43,Yes
+INC002,2025-12-01 10:05,2025-12-01 10:20,Analyst,Laptop,Teams Audio,P3,15,Yes
+INC003,2025-12-01 11:30,2025-12-01 12:40,Trader,Desktop,Wi-Fi Drop,P2,70,Yes
+INC004,2025-12-02 08:10,2025-12-02 08:50,Executive,Laptop,Remote Access,P2,40,Yes
+INC005,2025-12-02 09:00,2025-12-02 09:18,Staff,Laptop,O365 Login,P3,18,Yes
+INC006,2025-12-02 09:22,2025-12-02 10:05,Staff,Laptop,Conference Room AV,P2,43,Yes
+INC007,2025-12-03 14:10,2025-12-03 15:35,Analyst,Desktop,Printer,P4,85,Yes
+INC008,2025-12-03 15:00,2025-12-03 15:55,Executive,Laptop,VPN Authentication,P2,55,Yes
+INC009,2025-12-04 09:10,2025-12-04 09:45,Staff,Laptop,Teams Video,P3,35,Yes
+INC010,2025-12-04 10:00,,Staff,Laptop,VPN Authentication,P2,,No
